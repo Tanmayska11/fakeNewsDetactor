@@ -32,7 +32,8 @@ fake_news_detector/
 │   ├── data_cleaning.py             # Data cleaning pipeline
 │   ├── feature_engineering.py       # TF-IDF vectorization
 │   ├── train_model.py               # Model training and evaluation
-│   └── predict.py                   # Local prediction utility
+│   ├── predict.py                   # Local prediction utility
+|   └── save_test_results.py         #  Script to evaluate and save test results
 │
 ├── app/
 │   └── streamlit_app.py             # Streamlit app for testing
@@ -50,6 +51,8 @@ fake_news_detector/
 ✅ **Model Training:** Logistic Regression with evaluation metrics.
 ✅ **Prediction:** Local testing with `predict.py`.
 ✅ **Streamlit Deployment:** User-friendly interface for testing articles interactively.
+✅ **Automated Test Results Saving:** Integration of test evaluation script to run on Streamlit predict button click.
+
 
 ---
 
@@ -58,7 +61,7 @@ fake_news_detector/
 ### 1️⃣ Clone the Repository
 
 ```
-git clone <repo_link>
+git clone https://github.com/Tanmayska11/fakeNewsDetactor.git
 cd fake_news_detector
 ```
 
@@ -156,8 +159,8 @@ This project is developed as part of **Tanmay's Python & ML Internship** for bui
 
 For improvements or discussions:
 **Tanmay Khairnar**
-`<your email>`
-LinkedIn: `<your LinkedIn link>`
+`tanmayska11@gmail.com`
+LinkedIn: `https://www.linkedin.com/in/tanmay-khairnar-72990314a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app`
 
 ---
 
