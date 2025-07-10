@@ -2,6 +2,9 @@
 
 import streamlit as st
 import joblib
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from src.save_test_results import save_test_results
 
 # Load model and vectorizer
