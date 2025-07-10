@@ -2,6 +2,7 @@
 
 import streamlit as st
 import joblib
+from src.save_test_results import save_test_results
 
 # Load model and vectorizer
 model = joblib.load('models/fake_news_model.pkl')
@@ -37,6 +38,9 @@ def main():
                     st.error(f"🚩 The article is predicted as: **{result}**")
                 else:
                     st.success(f"✅ The article is predicted as: **{result}**")
+
+            save_test_results()
+            st.info("📁 Test results saved automatically.")   
 
     with col2:
         if st.button("Clear Text"):
