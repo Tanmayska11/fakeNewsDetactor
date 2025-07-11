@@ -165,3 +165,8 @@ LinkedIn: `https://www.linkedin.com/in/tanmay-khairnar-72990314a?utm_source=shar
 ---
 
 🚀 **Happy Learning & Building!**
+
+---
+## Application link
+
+`https://fakenewsdetactor-dbgsqhi8enzk4fo5maadqg.streamlit.app/`
